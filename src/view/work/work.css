@@ -1,0 +1,126 @@
+.logoImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+}
+.userName{
+    margin-left: 3px;
+}
+.container2{
+    display: flex;
+}
+.MenuItems:hover{
+    color: blue;
+}
+.MenuItems{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.container3{
+    background-color:azure ;
+}
+.OneWord{
+    background-color: white;
+}
+.container4{
+    background-color:lightgray;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.container5{
+    border-width: 1;
+    border-style: solid;
+    border-color: red;
+    height: 20px;
+    width: 60px;
+
+
+
+}
+.btnText{
+    text-align: center;
+    margin-top: -4px;
+    color: red;
+}
+.DatenTime{
+    color: lightgray;
+}
+.Article{
+    color: blue;
+}
+.line{
+    background-color:lightgray;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.larvarelbutton{
+    border-width: 1;
+    border-style: solid;
+    border-color: red;
+    height: 20px;
+    width: 60px;
+
+
+
+}
+.DatenTime2{
+    color: lightgray;
+}
+.Article2{
+    color: blue;
+}
+.line2{
+    background-color:lightgray;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.larvarelbutton2{
+    border-width: 1;
+    border-style: solid;
+    border-color: red;
+    height: 20px;
+    width: 60px;
+
+
+
+}
+.btnText2{
+    text-align: center;
+    margin-top: -4px;
+    color: red;
+}
+.DatenTime3{
+    color: lightgray;
+}
+.Article3{
+    color: blue;
+}
+.line3{
+    background-color:lightgray;
+    height: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.year{
+    display: flex;    
+}
+.year{
+    margin-left: 10px;
+    display: flex;
+}
+.work{
+        margin-left: 20px;
+        margin-right: 20px;
+}
+.write-up{
+   background-color: azure;
+}
+.write-up2{
+    background-color: azure;
+}

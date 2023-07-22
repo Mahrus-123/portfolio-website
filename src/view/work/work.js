@@ -9,7 +9,7 @@ const Work=()=>
      <>
       <div className="container">
       <img src={pic} onClick={()=>navigate("/home")} className="logoImage"/> 
-      <h1 className="userName">Mahrus</h1>
+      <h1 className="userName">Mahrus Iyoha</h1>
       </div>
 
       <div className="container2">
@@ -36,6 +36,9 @@ const Work=()=>
           significant amount of progress.
           I have alot of excellent reviews to back up my good work.  
         </p>
+      </div>
+      <div>
+        
       </div>
       </div>
 

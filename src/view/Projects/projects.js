@@ -9,7 +9,7 @@ const Projects=()=>
      <>
       <div className="container">
       <img src={pic} onClick={()=>navigate("/home")} className="logoImage"/> 
-      <h1 className="userName">Mahrus</h1>
+      <h1 className="userName">Mahrus Iyoha</h1>
       </div>
 
       <div className="container2">

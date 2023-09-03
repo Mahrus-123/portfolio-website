@@ -9,6 +9,7 @@ const Article=()=>
      <>
       <div className="container">
       <img src={pic} onClick={()=>navigate("/home")} className="logoImage"/> 
+       
       <h1 className="userName">Mahrus Iyoha</h1>
       </div>
 
@@ -22,6 +23,7 @@ const Article=()=>
       
       </div>
       <h1>Article Page</h1>
+     <div><h1 className="text2">COMING SOON.</h1></div>
 
     </>
   )

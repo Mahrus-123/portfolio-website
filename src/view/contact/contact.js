@@ -1,10 +1,30 @@
-import React from "react";
+import React,{useRef} from "react";
 import pic from "../../Assets/mahrus.jpg"
 import "./contact.css"
 import { useNavigate } from "react-router-dom";
 const Contact=()=>
 {
   const navigate = useNavigate()
+   const emailRef = useRef("")
+
+   const sendData = async ()=>{
+
+      const requestOption={
+          method: 'POST',
+          Accept:'application/json',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({"email":`${emailRef.current.value}`})
+      }
+
+      try{
+        const response = await fetch("http://localhost:4000/email",requestOption)
+
+      }catch(error){
+        console.error(error)
+      }
+      
+   }
+  
   return(
      <>
       <div className="container">
@@ -22,6 +42,21 @@ const Contact=()=>
       
       </div>
       <h1>Contact Page</h1>
+      <div className="new-container">
+        <h3 >E-mail Address:</h3>
+        <input  className="input" ref={emailRef}  />
+       <input type="submit"  onClick={()=>sendData()} />
+
+      
+      </div>
+      <div className="new-container2">
+        <h3 >Phone Number:</h3>
+        <input  className="input" ref={emailRef}  />
+       <input type="submit"  onClick={()=>sendData()} />
+
+      
+      </div>
+      
 
     </>
   )

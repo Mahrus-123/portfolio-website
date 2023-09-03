@@ -110,7 +110,10 @@
 .year{
     display: flex;    
 }
-.year{
-    margin-left: 10px;
+.year2{
+    margin-left: 400px;
+    display: flex;
+}
+.line4{
     display: flex;
 }

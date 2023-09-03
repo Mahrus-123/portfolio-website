@@ -13,7 +13,6 @@ const Home=()=>
       </div>
 
       <div className="container2">
-
       <h1 onClick={()=>navigate("/work")} className="MenuItems">Work</h1>
       <h1 onClick={()=>navigate("/project")} className="MenuItems">Projects</h1>
       <h1 onClick={()=>navigate("/article")} className="MenuItems">article</h1>
@@ -86,9 +85,9 @@ const Home=()=>
           <p className="Article3"> Read Article</p>
         </div>
         <div className="line3"></div>
-        <div>
+        <div className="line4">
           <h5 className="year">2023 Mahrus </h5>
-          <h5 className="year"> Built with React</h5>
+          <h5 className="year2"> Built with React</h5>
         </div>
 
       </div>

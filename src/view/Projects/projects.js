@@ -21,7 +21,10 @@ const Projects=()=>
       </div><div>
       <h1> Project  Page
       </h1> </div>  
-   
+      <div>
+        <p> Some of my spare time tinkering.</p>
+      </div>
+      <div></div>
     
     </>
   )

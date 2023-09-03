@@ -35,7 +35,16 @@ const Work=()=>
           This are the projects I have been working on and I have made a 
           significant amount of progress.
           I have alot of excellent reviews to back up my good work.  
+
         </p>
+        <h1> Business websites</h1>
+        <p className="write-up3">I have built alot of websites for 
+        business owners which have significantly boosted their profits and 
+        greatly increased their audience.</p>
+        <h1>Blogs</h1>
+        <p className="write-up4"> I have also made blogs which are 
+        spaces where individuals share news and helpful insights on happenings.</p>
+        <h1></h1>
       </div>
       <div>
         
